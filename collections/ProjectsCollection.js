@@ -6,7 +6,7 @@ define(["marionette",
           this.client_id = options.client_id;
         },
         url: function() {
-          return 'http://localhost:8081/rest/client/' + this.client_id + '/projects';
+          return 'http://silex.7sabores.com/rest/client/' + this.client_id + '/projects';
         },
         model: Project
     });
