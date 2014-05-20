@@ -8,7 +8,7 @@ This example use the project <a href="https://github.com/enzolutions/marionette-
 Inside you can find how use Nested Views or Marionette Layout, also the Event Manager is used to trigger the proper event based in used selection.
 
 
-**DEMO** : <a target="_blank" href="http://enzolutions.github.io/marionette-skeleton-app/">http://enzolutions.github.io/marionette-skeleton-app/</a>
+**DEMO** : <a target="_blank" href="http://enzolutions.com/marionette-cascading-select/">http://enzolutions.com/marionette-cascading-select/</a>
 
 ### Usage
 
