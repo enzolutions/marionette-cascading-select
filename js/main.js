@@ -52,8 +52,9 @@ require( ["jquery-ui",
           "../modules/RouterModule",
           "../modules/ControllerModule",
           "../modules/EventAggregatorModule",
-          "../views/HeaderView"],
-          function (jQueryUI, Marionette, RouterModule, ControllerModule, EventAggregatorModule, HeaderView) {
+          "../views/HeaderView",
+          "../views/FooterView",],
+          function (jQueryUI, Marionette, RouterModule, ControllerModule, EventAggregatorModule, HeaderView, FooterView) {
     // set up the app instance
     var MyApp = new Marionette.Application();
 
@@ -72,9 +73,6 @@ require( ["jquery-ui",
       vent: MyApp.vent
     });
 
-/*    // Initialiaze EventAggregator a Messaging System
-    MyApp.vent = new EventAggregatorModule();*/
-
     // initialize the router
     MyApp.router = new RouterModule({
       controller : controller,
@@ -90,6 +88,12 @@ require( ["jquery-ui",
 
       // Add Header View to region to be render
       MyApp.headerRegion.show(headerView);
+
+      // Creating a generic ItemView for Footer
+      footerView = new FooterView();
+
+      // Add Header View to region to be render
+      MyApp.footerRegion.show(footerView);
 
       // Start Backbone history a necessary step for bookmarkable URL's
       Backbone.history.start();
