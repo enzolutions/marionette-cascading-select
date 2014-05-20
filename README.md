@@ -46,3 +46,16 @@ define(["marionette",
 
 });
 ````
+
+You can use the sample REST server http://silex.7sabores.com/
+
+If you are planning to use your own server to test, remenber modiy the Silex Middleware after to enable CORS request and avoid error related the server and client aren't located under same domain, check the current implementation
+
+````
+$app->after(function (Request $request, Response $response) {
+    //$response->headers->set('Access-Control-Allow-Origin', '*');
+    $response->headers->set('Access-Control-Allow-Origin', 'http://YOURSERVER:YOURPORT');
+});
+````
+
+Your port is neccessary only if you use other port than 80
