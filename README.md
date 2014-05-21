@@ -3,7 +3,7 @@ Marionette Cascading Select
 
 Implementation of the typical Ajax example of three level of select elements with dependency, results in selects change based in his parent selection.
 
-This example use the project <a href="https://github.com/enzolutions/marionette-skeleton-app" taget="_blank" >https://github.com/enzolutions/marionette-skeleton-app</a> as start point.
+This example use the project <a target="_blank" href="https://github.com/enzolutions/marionette-skeleton-app" taget="_blank" >https://github.com/enzolutions/marionette-skeleton-app</a> as start point.
 
 Inside you can find how use Nested Views or Marionette Layout, also the Event Manager is used to trigger the proper event based in used selection.
 
@@ -12,7 +12,7 @@ Inside you can find how use Nested Views or Marionette Layout, also the Event Ma
 
 ### Usage
 
-This example use a REST API server to get the information related with Clients, Projects of Clients and Tasks of Projects. The Rest server was implemente using <a href="http://silex.sensiolabs.org/" target="_blank">Silex</a> Micro Framework
+This example use a REST API server to get the information related with Clients, Projects of Clients and Tasks of Projects. The Rest server was implemente using <a target="_blank" href="http://silex.sensiolabs.org/" target="_blank">Silex</a> Micro Framework
 
 #### Installing Rest Server
 
