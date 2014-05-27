@@ -7,6 +7,7 @@ This example use the project <a target="_blank" href="https://github.com/enzolut
 
 Inside you can find how use Nested Views or Marionette Layout, also the Event Manager is used to trigger the proper event based in used selection.
 
+![Marionnete Cascading Select](https://raw.githubusercontent.com/enzolutions/marionette-cascading-select/master/images/marionettejs_cascading_select.png "Marionnete Cascading Select")
 
 **DEMO** : <a target="_blank" href="http://enzolutions.com/marionette-cascading-select/">http://enzolutions.com/marionette-cascading-select/</a>
 
